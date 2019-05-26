@@ -30,7 +30,6 @@ In Host machine (from step 1), input answer from step 2
 
 Open up `http://localhost:300` in Guest machine to see content from Host machine's server.
 
-```
 
 ## Params
 
