@@ -14,13 +14,13 @@ First part will setup the WebRTC connection. Once that is done, the guest machin
 
 Host (machine wanting to share local port 3000):
 
-`npx kanto -p 3000 # <- will render webrtc offer and will wait for answer`
+`npx kanpo -p 3000 # <- will render webrtc offer and will wait for answer`
 
 ### Step 2
 
 Guest (maching wanting to access some other machine's local port)
 
-`npx kanto -t guest # <- will ask for offer from step 1 and will render answer`
+`npx kanpo -t guest # <- will ask for offer from step 1 and will render answer`
 
 ### Step 3
 
@@ -37,7 +37,7 @@ Open up `http://localhost:300` in Guest machine to see content from Host machine
 
 - Default: `80` for `host` and `3000` for `guest`
 
-Sets port Kanto will tunel
+Sets port Kanpo will tunel
 
 **`--type, -t`**
 

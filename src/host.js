@@ -47,7 +47,7 @@ module.exports = async ({ port = PORT }) => {
 
   // requests to guest:other_port will be proxied to here:port
   await new Promise(r => {
-    console.log(` Kanto is running for port ${port}`)
+    console.log(` Kanpo is running for port ${port}`)
     peer.on('data', async msg => {
       const data = JSON.parse(msg)
       console.log(` Request ${JSON.stringify(data, null, 2)}`)
