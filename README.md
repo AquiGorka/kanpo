@@ -4,7 +4,7 @@ Another proxy between your local development server and the _outside_ world - th
 
 ## Why
 
-Because you don't need a third party server to relay your data and most certainly you do not need to pay them to remove throttling and because no one will be able to eve's drop into your traffic.
+Because you don't need a third party server to relay your data and most certainly you do not need to pay them to remove throttling and because no one will be able to look into your traffic.
 
 ## Usage
 
