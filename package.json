@@ -1,0 +1,22 @@
+{
+  "name": "kanpo-cli",
+  "version": "0.0.1",
+  "description": "Kanpo",
+  "author": {
+    "name": "Gorka Ludlow",
+    "email": "gorka@aquigorka.com",
+    "url": "https://kontu.app"
+  },
+  "main": "src/index.js",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "node-fetch": "^2.6.0",
+    "simple-peer": "^9.3.0",
+    "wrtc": "^0.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT"
+}
