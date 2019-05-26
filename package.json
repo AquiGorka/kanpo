@@ -1,11 +1,10 @@
 {
-  "name": "kanpo-cli",
+  "name": "kanpo",
   "version": "0.0.1",
   "description": "Kanpo",
   "author": {
     "name": "Gorka Ludlow",
-    "email": "gorka@aquigorka.com",
-    "url": "https://kontu.app"
+    "email": "gorka@aquigorka.com"
   },
   "main": "src/index.js",
   "dependencies": {
