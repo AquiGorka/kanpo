@@ -35,7 +35,7 @@ Open up `http://localhost:300` in Guest machine to see content from Host machine
 
 **`--port, -p`**
 
-- Default: 80
+- Default: `80` for `host` and `3000` for `guest`
 
 Sets port Kanto will tunel
 
