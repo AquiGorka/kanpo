@@ -6,7 +6,7 @@
     "name": "Gorka Ludlow",
     "email": "gorka@aquigorka.com"
   },
-  "main": "src/index.js",
+  "main": "kanpo",
   "dependencies": {
     "minimist": "^1.2.0",
     "node-fetch": "^2.6.0",
