@@ -2,11 +2,23 @@
   "name": "kanpo",
   "version": "0.0.4",
   "description": "Kanpo",
+  "repository": "https://github.com/AquiGorka/kanpo",
+  "bugs": "https://github.com/AquiGorka/kanpo/issues",
   "author": {
     "name": "Gorka Ludlow",
     "email": "gorka@aquigorka.com"
   },
-  "main": "kanpo",
+  "keywords": [
+    "cli-app",
+    "cli",
+    "bin",
+    "local",
+    "tunnel",
+    "devserver",
+    "outside"
+  ],
+  "bin": "kanpo.js",
+  "main": "src/index.js",
   "dependencies": {
     "minimist": "^1.2.0",
     "node-fetch": "^2.6.0",
@@ -15,8 +27,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "kanpo": "node ./kanpo"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "license": "MIT"
 }
