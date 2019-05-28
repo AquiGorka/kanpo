@@ -1,6 +1,6 @@
 {
   "name": "kanpo",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Kanpo",
   "repository": "https://github.com/AquiGorka/kanpo",
   "bugs": "https://github.com/AquiGorka/kanpo/issues",
@@ -17,7 +17,9 @@
     "devserver",
     "outside"
   ],
-  "bin": "kanpo.js",
+  "bin": {
+    "kanpo": "./kanpo.js"
+  },
   "main": "src/index.js",
   "dependencies": {
     "minimist": "^1.2.0",
